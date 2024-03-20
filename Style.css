@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: red
+;}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+H2 {
+    color: white;
+}
+
+article {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 20%;
+    float: left;
+    padding: 5px;
+    background-color: white;
+    height: 50vh;
+    margin: 20px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+article:hover {
+    box-shadow:  8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+    max-width: inherit;
+    height: 92%;
+    max-height: inherit;
+    object-fit: cover;
+}
+
